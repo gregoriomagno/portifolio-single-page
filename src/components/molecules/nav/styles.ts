@@ -9,7 +9,7 @@ export const Nav = styled.nav`
   padding: 2.4rem 4rem;
   color: white;
   justify-content: space-between;
-  background-color: black;
+  background-color: #0E141B;
   height: fit-content;
   border-bottom: 1px solid grey;
 `;

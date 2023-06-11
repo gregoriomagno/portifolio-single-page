@@ -7,11 +7,12 @@ export const Container = styled.div`
   flex-direction: column;
   margin: 0;
   padding: 0;
+ 
 `;
 export const DivHome = styled.div`
   display: flex;
   height: 700px;
-  background-color: #09090B;
+  background-color:#0E141B;
   color: white;
 `;
 
