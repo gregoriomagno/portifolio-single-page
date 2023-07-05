@@ -4,9 +4,9 @@ import React from 'react'
 import * as S from './styles'
  const navLinks = [
 	{ navLinkId: 'Home', scrollToId: 'homeContainer' },
-	{ navLinkId: 'About', scrollToId: 'aboutContainer' },
-	{ navLinkId: 'Portfolio', scrollToId: 'portifolioContainer' },
-	{ navLinkId: 'Contact', scrollToId: 'contactContainer' },
+	// { navLinkId: 'About', scrollToId: 'aboutContainer' },
+	{ navLinkId: 'Portfolio', scrollToId: 'portifolioContainer' }
+	// { navLinkId: 'Contact', scrollToId: 'contactContainer' },
 ];
 
 const NavBar = () => {

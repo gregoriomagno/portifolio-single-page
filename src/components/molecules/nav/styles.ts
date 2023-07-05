@@ -1,17 +1,22 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 
 export const Nav = styled.nav`
-  display: flex;
-  width: 100%;
-  position: sticky;
-  z-index: 10;
-  top: 0;
-  padding: 2.4rem 4rem;
-  color: white;
-  justify-content: space-between;
-  background-color: #0E141B;
-  height: fit-content;
-  border-bottom: 1px solid grey;
+  ${({ theme }) => css`
+    display: flex;
+    width: 100%;
+    position: sticky;
+    z-index: 10;
+    top: 0;
+    padding: 4rem 0rem;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1400px;
+    color: white;
+    justify-content: space-between;
+    background-color: ${theme.default.background};
+    height: fit-content;
+  `}
 `;
 export const ContainerLinks = styled.div`
   display: flex;
