@@ -14,27 +14,34 @@ export const Container = styled.div`
 export const Content = styled.main`
   display: flex;
   flex-direction: column;
+
   width: 90%;
+  /* padding: 105px 0px; */
   margin-left: auto;
   margin-right: auto;
+
   max-width: 1400px;
 `;
 export const DivHome = styled.section`
   display: flex;
-  height: 100vh;
+  height: 86.5vh;
+
   color: white;
+  background-color: blue;
 `;
 
-export const DivAbout = styled.div`
-  display: flex;
-  height: 700px;
-`;
+// export const DivAbout = styled.div`
+//   display: flex;
+//   height: 84.5vh;
+//   background-color: blue;
+// `;
 
-export const DivContact = styled.div`
-  display: flex;
-  height: 700px;
-`;
+// export const DivContact = styled.div`
+//   display: flex;
+//   height: 700px;
+// `;
 export const DivPortifolio = styled.div`
   display: flex;
-  height: 700px;
+  height: 86.5vh;
+  background-color: grey;
 `;

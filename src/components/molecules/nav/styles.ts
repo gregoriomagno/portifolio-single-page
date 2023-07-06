@@ -3,19 +3,22 @@ import styled, { css } from "styled-components";
 export const Nav = styled.nav`
   ${({ theme }) => css`
     display: flex;
-    width: 100%;
+ 
     position: sticky;
     z-index: 10;
     top: 0;
-    padding: 4rem 0rem;
+    padding: 5vh 0 5vh 0;
     width: 90%;
+    height:100%;
+    max-height:16vh ;
     margin-left: auto;
     margin-right: auto;
     max-width: 1400px;
     color: white;
     justify-content: space-between;
-    background-color: ${theme.default.background};
-    height: fit-content;
+     background-color: ${theme.default.background}; 
+  
+    /* background-color:red; */
   `}
 `;
 export const ContainerLinks = styled.div`

@@ -3,13 +3,16 @@ import * as S from "./styles";
 const AboutContainer = () => {
   return (
     <S.Container>
-      <S.ContainerLeft>
+        <S.ContainerLeft>
+      <div>
         {" "}
         <h3>Hello, my name is Gregorio Magno</h3>
         <h1>Frontend Developer</h1>
         <h2>
           I like to create systems and websites in an agile and scalable way
         </h2>
+      </div>
+     
       </S.ContainerLeft>
       <S.ContainerRight>
         <S.WrapperPhoto>

@@ -6,7 +6,8 @@ const NavLink = ({ navLinkId, scrollToId }: any) => {
 
   const handleClick = () => {
     setActiveNavLinkId(navLinkId);
-    document.getElementById(scrollToId)?.scrollIntoView({ behavior: "smooth" });
+    document.getElementById(scrollToId)?.scrollIntoView({ behavior: "smooth",block: "end" });
+   
   };
   const className = activeNavLinkId === navLinkId ? "activeClass" : "";
 

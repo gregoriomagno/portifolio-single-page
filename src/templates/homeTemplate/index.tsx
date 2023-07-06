@@ -11,7 +11,7 @@ const HomeTemplate = () => {
   const portfolioRef = useNav("Portfolio");
   return (
     <S.Container>
-      {" "}
+      
       <Nav />
       <S.Content>
         <S.DivHome ref={homeRef} id="homeContainer">
@@ -19,6 +19,7 @@ const HomeTemplate = () => {
         </S.DivHome>
         {/* <S.DivAbout ref={aboutRef} id="aboutContainer">
           <AboutContainer />
+      
         </S.DivAbout> */}
         <S.DivPortifolio ref={portfolioRef} id="portifolioContainer">
           portfolio
